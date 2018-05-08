@@ -1,86 +1,140 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 	<title>Flags</title>
+
 <style>
-*{margin:0;}
-.content-flags{
+*{margin:0;padding:0;}
+
+.content-flags1{
 width:100%;
-height:auto;
-border:solid 1px red;
+height:365px;
+box-sizing: border-box;
 }
 
 .España{
-width:40%;
-height:auto;
-border:solid 1px black;
+width:48%;
+height:321px;
 padding:20px 10px 20px 10px;
 float:left;
 margin-right: 0px;
+border: solid 1px black;
 }	
 .España .rojo{
 width:100%;
-height:50px;	
+height:92px;	
 background-color:red;
 }
 .España .amarillo{
 width:100%;
-height:80px;
+height:134px;
 background-color:yellow;
 }
 
 
-.Dinamarca{
+.Dinamarca {
 width:50%;
-height:auto;
-border:solid 1px black;
-padding:20px 10px 20px 10px;
+height:360px;
 float:right;
-}	
-.Dinamarca .uno{
+border: solid 1px black;
+
+}
+
+.Dinamarca .rojo1 {
 width:30%;
-height:150px;	
+height:180px;
 background-color:red;
-top: 3px;
-left: 34px;
+float:left;
+border:solid 20px #ffff;
+box-sizing: border-box;
 }
-.Dinamarca .dos{
-width:60%;
-height:150px;
-position: relative;
-top: -150px;
-left: 266px;
+
+.Dinamarca .rojo2 {
+width:64%;
+height:140px;
 background-color:red;
+float:left;
+border:solid 20px #ffff;
+	
+}
+
+.content-flags2{
+width:100%;
+height:365px;
 }
 
 
-.Dinamarca .tres{
-width: 30%;
-height: 150px;
-position: relative;
-top: -90px;
+.emiratos{
+width:48%;
+height:360px;
+float:left;
+border: solid 1px black;
+
+}
+
+.rojoemirato {
+width: 23%;
 background-color: red;
+height: 330px;
+margin: 15px 0px 15px 15px;
+float:left;
 }
 
-.Dinamarca .cuatro{
-width: 60%;
-height: 150px;
+.trescolores{    
+width: 100%;
+margin: 15px 0 13px 0;
+height: 332px;
+}
+
+
+.green{
+width:71%;
+height:110px;
+background-color:green;
+float:left;
+}
+
+.white{
+width:71%;
+height:110px;
+background-color:#ffff;
+float:left;
+}
+
+.black{
+width:71%;
+height:110px;
+background-color:black;
+float:left;
+}
+
+.Japon{
+width:50%;
+height:360px;
+background-color:#ffff;
+float:right;
+border: solid 1px black;
+}
+
+.circulo {
+ width: 165px;
+height: 165px;
+-moz-border-radius: 50%;
+-webkit-border-radius: 50%;
+border-radius: 126%;
+background: #FF0000;
 position: relative;
-top: -240px;
-left: 267px;
-background-color:red;
+top: 89px;
+left: 242px;
 }
-
-
-
-
 </style>
 
 </head>
 
 <body>
 
-<div class="content-flags">
+<div class="content-flags1">
 	<div class="España">
 		<div class="rojo"></div>
         <div class="amarillo"></div>
@@ -89,19 +143,26 @@ background-color:red;
 	</div>
 
 	<div class="Dinamarca">
-		<div class="uno"></div>
-		<div class="dos"></div>
-		<div class="tres"></div>
-		<div class="cuatro"></div>
 		
+		<div class="rojo1"></div>
+		<div class="rojo2"></div>
+		<div class="rojo1"></div>
+		<div class="rojo2"></div>
 	</div>
+</div>
 
-	<div class=="Emiratos">
-		
+<div class="content-flags2">
+	<div class="emiratos">
+		<div class="rojoemirato"></div>
+			<div class="trescolores">
+				<div class="green"></div>
+				<div class="white"></div>
+				<div class="black"></div>
+	         </div>
 	</div>
 
 	<div class="Japon">
-		
+		<div class="circulo"></div>
 	</div>
 
 
